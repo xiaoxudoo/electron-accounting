@@ -1,0 +1,90 @@
+* {
+  outline: none;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, strong, b {
+  font-weight: normal;
+}
+
+em, i {
+  font-style: normal;
+}
+
+img {
+  /* display: block; */
+  border: none;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+input {
+  outline: none;
+}
+
+/* webkit */
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/* Firefox版本4-18 */
+input:-moz-placeholder, textarea:-moz-placeholder {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/* Firefox版本19+ */
+input::-moz-placeholder, textarea::-moz-placeholder {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+/* ie9+ */
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.3);
+}
