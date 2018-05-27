@@ -44,7 +44,7 @@ import path from "path";
 const ml = require("ml-regression");
 const csv = require("csvtojson");
 const Json2csvParser = require("json2csv").Parser;
-const { dialog } = require("electron");
+const {dialog} = require('electron').remote;
 export default {
   name: "landing-page",
   components: {},
@@ -122,6 +122,7 @@ export default {
         );
         out.write(csv);
         out.end();
+        alert(path.join(__static, "calc/result.csv"));
       } else {
         alert("请先计算结果!");
       }
