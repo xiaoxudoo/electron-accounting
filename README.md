@@ -2,6 +2,8 @@
 
 > An electron-vue project
 
+![img](./static/account.png)
+
 #### Build Setup
 
 ``` bash
